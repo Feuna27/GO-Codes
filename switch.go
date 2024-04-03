@@ -41,7 +41,7 @@ func main() {
 
 	switch thisMonth {
 	case 1, 3, 5, 7, 8, 10, 12:
-		fmt.Println("31 Days") // note that we dont require break in go to stop swithch execution
+		fmt.Println("31 Days") 
 	case 4, 6, 9, 11:
 		fmt.Println("30 Days")
 
